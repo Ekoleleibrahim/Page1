@@ -2,18 +2,18 @@
 
 body{padding: 0; background:#292f36;color:white;font-family:sans-serif;}
 
-section.lorem{padding:20px;background-image:url(images/img3.jpg); background-size:cover;heigth:40%;font-weight: normal;color:#aabcde;text-align:justify;height:390px;line-height:25px;}
+section.lorem{padding:20px;background-image:url(images/img3.jpg); background-size:cover;height:40%;font-weight: normal;color:#aabcde;text-align:justify;height:390px;line-height:25px;}
 
 .def{text-align:justify;color:#292f36;text-indent:30px;}
 
 .line1:hover{margin:0;padding:80px; background:#aaffcd;}
 
 
-.info,.me{padding:10px; background:linear-gradient(90deg,#388ea2,#7f99b1);border-radius:5px;box-shadow:3px 0 5px black;color:#292f36;font-weight:bold;}
+#info,.me{padding:10px; background:linear-gradient(90deg,#388ea2,#7f99b1);border-radius:5px;box-shadow:3px 0 5px black;color:#292f36;font-weight:bold;}
 
 .me{width:150px;}
 
-.info:hover,.me:hover{background :aqua;}
+#info:hover,.me:hover{background :aqua;}
 
 h1.app{color:#2374ab;}
 
