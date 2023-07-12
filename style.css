@@ -231,10 +231,16 @@ meter
 }
 
 
-footer
+footer#footer
 {
     padding: 20px;
 
+}
+
+.nous
+{
+    color: white;
+    text-decoration: none;
 }
 
 .gallery
