@@ -34,7 +34,7 @@ nav
     font-weight: bold;
     text-decoration: none;
     box-sizing: border-box;
-    color: gray;
+    color: rgb(179, 174, 174);
 }
 
 .bar-nav:hover
@@ -141,7 +141,8 @@ figcaption
 {
     text-align: center;
     color: rgba(11, 10, 38, 0.464);
-    margin:5px 0 10px;
+    margin:10px 0 25px;
+    font-size: 2em;
 }
 
 .etudes
