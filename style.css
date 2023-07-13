@@ -156,6 +156,8 @@ figcaption
     margin: 25px 15px;
 }
 
+
+/*
 .section-etudes
 {
     width: 300px;
@@ -170,6 +172,7 @@ figcaption
     float: right;
     
 }
+*/
 
 .section-langues,.section-etudes
 {
@@ -224,7 +227,7 @@ figcaption
 {
     width: 290px;
     height: 250px;
-    padding: 20px;
+    padding: 20px 10px;
     background-color: rgb(197, 193, 193);
     border-radius: 10px;
     line-height: 4em;
