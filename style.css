@@ -194,6 +194,7 @@ figcaption
     background-image: url(images/Burner_32px.png);
     background-repeat: no-repeat;
     background-position: left;
+    overflow-x: auto;
 }
 
 
