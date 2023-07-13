@@ -34,7 +34,7 @@ nav
 
 .bar-nav
 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
@@ -165,14 +165,17 @@ figcaption
 .section-langues
 {
     padding-bottom: 30px;
+    margin-right: 5px;
     width: 385px;
     float: right;
+    
 }
 
 .section-langues,.section-etudes
 {
     box-sizing: border-box;
     margin-top: 40px;
+    overflow: hidden;
 }
 
 .etudes,.langues,.compet
@@ -219,16 +222,14 @@ figcaption
 
 .competences
 {
-    width: 300px;
-    height: 270px;
+    width: 290px;
+    height: 250px;
     padding: 20px;
     background-color: rgb(197, 193, 193);
     border-radius: 10px;
     line-height: 4em;
     margin: auto;
     box-shadow: 0 0 30px black;
-    position: relative;
-    bottom: 10px;
 }
 
 .competences:active
