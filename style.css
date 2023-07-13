@@ -157,10 +157,9 @@ figcaption
 }
 
 
-/*
 .section-etudes
 {
-    width: 300px;
+    width: 500px;
     float: left;
 }
 
@@ -168,11 +167,10 @@ figcaption
 {
     padding-bottom: 30px;
     margin-right: 5px;
-    width: 385px;
+    width: 200px;
     float: right;
     
 }
-*/
 
 .section-langues,.section-etudes
 {
@@ -194,7 +192,7 @@ figcaption
     background-image: url(images/Burner_32px.png);
     background-repeat: no-repeat;
     background-position: left;
-    overflow-x: auto;
+
 }
 
 
