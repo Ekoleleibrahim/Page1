@@ -11,6 +11,11 @@ body
     background-color: black;
 }
 
+em,strong
+{
+    font-style: normal;
+}
+
 .header-menu
 {
     background-color: rgba(212, 212, 212, 0.344);
@@ -141,15 +146,50 @@ figcaption
 {
     text-align: center;
     color: rgba(11, 10, 38, 0.464);
-    margin:10px 0 25px;
+    margin:10px 0 30px;
     font-size: 2em;
 }
 
-.etudes
+.realisation,.annee-etudes,.langues-parlees
 {
-    margin: 20px 0;
-    text-align: center;
+    border-left: 5px solid gray;
+    margin: 25px 15px;
 }
+
+.section-etudes
+{
+    width: 300px;
+    float: left;
+}
+
+.section-langues
+{
+    padding-bottom: 30px;
+    width: 385px;
+    float: right;
+}
+
+.section-langues,.section-etudes
+{
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.etudes,.langues,.compet
+{
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding-left: 40px;
+}
+
+.etudes,.langues
+{
+    background-image: url(images/Burner_32px.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 
 #perso,.info-formation
 {
@@ -160,11 +200,15 @@ figcaption
 
 .bare-sous
 {
+    height: 10px;
     padding: 30px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    clear: both;
+    background-color: white;
+    border-radius: 5px;
 
 }
 
@@ -176,19 +220,21 @@ figcaption
 .competences
 {
     width: 300px;
-    height: 250px;
+    height: 270px;
     padding: 20px;
     background-color: rgb(197, 193, 193);
     border-radius: 10px;
     line-height: 4em;
     margin: auto;
     box-shadow: 0 0 30px black;
+    position: relative;
+    bottom: 10px;
 }
 
 .competences:active
 {
     width: 300px;
-    height: 250px;
+    height: 270px;
     padding: 20px;
     background-color: white;
     border-radius: 10px;
@@ -223,6 +269,13 @@ meter
     text-align: center;
 }
 
+.compet
+{
+    background-image: url(images/Experienced_32px.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 #unique
 {
     padding: 20px;
@@ -247,7 +300,7 @@ footer#footer
 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     gap: 8px;
     padding: 10px;
